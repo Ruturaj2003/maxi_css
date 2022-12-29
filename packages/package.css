@@ -1,0 +1,51 @@
+.plans{
+    text-decoration: none;
+    display: block;
+    background-color: rgb(216, 154, 79);
+    height: 350px;
+    width: 700px;
+    border: 3px solid rgb(124, 88, 44);
+    margin: 24px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+.plans p {
+
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 7px;
+    border: 2px solid rgb(124, 88, 44);
+}
+
+.plans h2{
+    color: rgb(163, 55, 55);
+}
+
+
+.plan--free{
+    background-color: rgb(245, 195, 133);
+
+}
+
+
+
+.plan--premium{
+    background-color: rgb(151, 106, 51);
+    color: white;
+}
+
+.plan--premium h2{
+    color: orange;
+}
+
+.plan--premium p {
+    color:rgb(87, 60, 28);
+}
+
+.plans:hover,
+.plans:active{
+    border: 5px solid cyan;
+
+}
