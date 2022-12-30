@@ -32,6 +32,8 @@ body {
     width: 100%;
     background-color: bisque;
     padding: 8px 16px;
+    position: fixed;
+    top: 0;
 }
 
 .main-header>div {

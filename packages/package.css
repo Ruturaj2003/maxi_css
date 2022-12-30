@@ -3,10 +3,11 @@
     display: block;
     background-color: rgb(216, 154, 79);
     height: 350px;
-    width: 700px;
+    width: 80%;
     border: 3px solid rgb(124, 88, 44);
     margin: 24px;
     padding-left: 30px;
+    padding-right: 30px;
     padding-top: 30px;
 }
 
@@ -26,10 +27,12 @@
 
 .plan--free{
     background-color: rgb(245, 195, 133);
-
+    float: right;
 }
 
-
+.float--fix{
+    clear:both;
+}
 
 .plan--premium{
     background-color: rgb(151, 106, 51);
@@ -47,5 +50,4 @@
 .plans:hover,
 .plans:active{
     border: 5px solid cyan;
-
 }
