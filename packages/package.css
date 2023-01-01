@@ -1,5 +1,5 @@
 main{
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 
 .background {
@@ -15,13 +15,13 @@ main{
     text-decoration: none;
     display: block;
     background-color: rgb(216, 154, 79);
-    height: 350px;
+    height: 21.875rem;
     width: 80%;
     border: 3px solid rgb(124, 88, 44);
-    margin: 24px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
+    margin: 1.5rem;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-top: 1.875rem;
     
 }
 
@@ -29,7 +29,7 @@ main{
 .plans p {
 
     background-color: rgb(255, 255, 255);
-    padding: 12px;
+    padding: 0.75;
     border-radius: 7px;
     border: 2px solid rgb(124, 88, 44);
 }
@@ -48,11 +48,11 @@ main{
     margin-top: 0;
     top: 0;
     right: 0;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     border: 4px saddlebrown solid;
     border-top: none;
-    padding: 10px;
+    padding: 0.62rem;
     border-right: none;
     color: rgb(65, 32, 32);
     background-color: blanchedalmond;

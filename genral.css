@@ -2,9 +2,21 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+}
+
+.backdrop{ 
+    position: fixed;
+    top:0%;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
 }
 
 .button {
@@ -12,7 +24,7 @@ body {
     color: white;
     font: inherit;
     border-radius: 5px;
-    padding: 5px;
+    padding: 0.3125rem;
     font-weight: bolder;
     cursor: pointer;
 
@@ -31,7 +43,7 @@ body {
 .main-header {
     width: 100%;
     background-color: bisque;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     position: fixed;
     top: 0;
     z-index: 9;
@@ -46,18 +58,18 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.375rem;
     display: inline-block;
 }
 
 .main-header__brand img {
     display: inline-block;
-    width: 24px;
+    width: 1.5rem;
 }
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 104px);
+    width: calc(100% - 6.5rem);
     vertical-align: middle;
 }
 
@@ -69,14 +81,14 @@ body {
 
 .main-nav__item {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .main-nav__item a {
     text-decoration: none;
     color: #0e4f1f;
     font-weight: bold;
-    padding: 3px 0;
+    padding: 0.2rem 0;
 }
 
 .main-nav__item a:hover,
@@ -88,7 +100,7 @@ body {
 .main-nav__item--cta a {
     color: white;
     background: #ff1b68;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     border-radius: 8px;
 }
 
@@ -102,8 +114,8 @@ body {
 .main-footer {
     background-color: rgb(44, 44, 44);
     color: white;
-    padding: 32px;
-    margin-top: 48px;
+    padding: 2rem;
+    margin-top: 3rem;
 }
 
 .main-footer__links {
@@ -116,19 +128,19 @@ body {
 
 .main-footer__link {
     display: inline-block;
-    margin: 0px 20px;
+    margin: 0px 1.25rem;
 }
 
 .main-footer__link a {
     text-decoration: none;
     color: white;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .main-footer__link a:hover,
 .main-footer__link a:active {
-    padding-bottom: 5px;
+    padding-bottom: 0.3rem;
     color: cyan;
     border-bottom: 3px solid white;
 
