@@ -34,6 +34,7 @@ body {
     padding: 8px 16px;
     position: fixed;
     top: 0;
+    z-index: 9;
 }
 
 .main-header>div {
@@ -46,12 +47,17 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
+    display: inline-block;
 }
 
+.main-header__brand img {
+    display: inline-block;
+    width: 24px;
+}
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 74px);
+    width: calc(100% - 104px);
     vertical-align: middle;
 }
 
