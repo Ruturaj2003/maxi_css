@@ -1,0 +1,93 @@
+@media (min-width : 40rem){
+
+    main {
+            padding-top: 2rem;
+            /* margin: 3rem auto; */
+            max-width: 1500px;
+        }
+    
+        .background {
+            background: url("../images/plans-background.jpg") center/cover;
+            filter: grayscale(35%);
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            z-index: -1;
+        }
+    
+        .plans {
+            text-decoration: none;
+            display: block;
+            background-color: rgb(216, 154, 79);
+            height: 21.875rem;
+            width: 80%;
+            border: 3px solid rgb(124, 88, 44);
+            margin: 1.5rem;
+            padding-left: 1.875rem;
+            padding-right: 1.875rem;
+            padding-top: 1.875rem;
+    
+        }
+    
+    
+        .plans p {
+    
+            background-color: rgb(255, 255, 255);
+            padding: 0.75;
+            border-radius: 7px;
+            border: 2px solid rgb(124, 88, 44);
+        }
+    
+        .plans h2 {
+            color: rgb(163, 55, 55);
+        }
+    
+        .plan--plus {
+            position: relative;
+            z-index: 8;
+        }
+    
+        #recom {
+            position: absolute;
+            margin-top: 0;
+            top: 0;
+            right: 0;
+            font-size: 1.25rem;
+            font-weight: 600;
+            border: 4px saddlebrown solid;
+            border-top: none;
+            padding: 0.62rem;
+            border-right: none;
+            color: rgb(65, 32, 32);
+            background-color: blanchedalmond;
+            z-index: 10;
+        }
+    
+        .plan--free {
+            background-color: rgb(245, 195, 133);
+            float: right;
+        }
+    
+        .float--fix {
+            clear: both;
+        }
+    
+        .plan--premium {
+            background-color: rgb(151, 106, 51);
+            color: white;
+        }
+    
+        .plan--premium h2 {
+            color: orange;
+        }
+    
+        .plan--premium p {
+            color: rgb(87, 60, 28);
+        }
+    
+        .plans:hover,
+        .plans:active {
+            border: 5px solid cyan;
+        }
+    
+}

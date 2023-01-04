@@ -4,10 +4,6 @@ var selectPlanButtons = document.querySelectorAll('.plan button');
 var no__button = document.querySelector('.modal__action--negative');
 var toggleButton = document.querySelector('.toggle-button');
 var mobileNav = document.querySelector('.mobile-nav');
-
-
-
-
 var n = selectPlanButtons.length;
 
 function eventos ()

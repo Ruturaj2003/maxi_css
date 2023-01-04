@@ -9,6 +9,8 @@ body {
     margin: 0;
 }
 
+
+
 .backdrop{ 
     position: fixed;
     top:0%;
@@ -42,11 +44,13 @@ body {
 
 .main-header {
     width: 100%;
-    background-color: bisque;
+    background-color: rgb(211, 164, 106);
     padding: 0.5rem 1rem;
     position: fixed;
     top: 0;
     z-index: 9;
+    height: 3rem;
+    
 }
 
 .main-header>div {
@@ -100,6 +104,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: none;
 }
 
 .main-nav__item {
@@ -156,8 +161,8 @@ body {
 }
 
 .main-footer__link {
-    display: inline-block;
-    margin: 0px 1.25rem;
+    display: block;
+    margin-bottom: 1rem;
 }
 
 .main-footer__link a {
@@ -165,6 +170,7 @@ body {
     color: white;
     font-weight: 900;
     font-size: 1rem;
+    
 }
 
 .main-footer__link a:hover,

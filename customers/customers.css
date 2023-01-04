@@ -1,6 +1,6 @@
 .testimonial {
     font-size: 1.22em;
-    margin: 3rem 0;
+    margin: 1rem 0;
   }
   
   .testimonial__list {
@@ -14,10 +14,11 @@
   
   /* IT is here instead of top to have margin */
   .testimonial__image-container{
-    width: 65%;
-    max-width: 580px;
-    display: inline-block;
-    vertical-align: middle;
+    width: 95%;
+    margin: auto;
+    /* max-width: 580px; */
+    display: block;
+    /* vertical-align: middle; */
     box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
   }
 
@@ -29,9 +30,9 @@
   .testimonial__info {
     text-align: right;
     padding: 0.9rem;
-    display: inline-block;
-    vertical-align: middle;
-    width: 30%;
+    display: block;
+    /* vertical-align: middle;
+    width: 30%; */
   }
   
   #customer-2.testimonial {
