@@ -1,0 +1,6 @@
+@media (min-width : 40rem) {
+    .signup-form {
+        margin: auto;
+        width: 25rem ;
+    }
+}
