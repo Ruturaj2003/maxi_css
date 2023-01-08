@@ -1,8 +1,8 @@
-@media (min-width : 40rem){
+/*@media (min-width : 40rem){
 
     main {
             padding-top: 2rem;
-            /* margin: 3rem auto; */
+            margin: 3rem auto; 
             max-width: 1500px;
         }
     
@@ -90,4 +90,4 @@
             border: 5px solid cyan;
         }
     
-}
+} */
