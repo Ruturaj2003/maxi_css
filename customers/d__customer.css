@@ -4,6 +4,9 @@
             font-size: 1.22em;
             margin: 3rem auto;
             max-width: 1500px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
         }
     
         .testimonial__list {
@@ -19,8 +22,7 @@
         .testimonial__image-container {
             width: 65%;
             max-width: 580px;
-            display: inline-block;
-            vertical-align: middle;
+            margin: 0%;
             box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
         }
     
