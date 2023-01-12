@@ -8,10 +8,14 @@
         body {
             font-family: 'Montserrat', sans-serif;
             margin: 0;
+            display: grid;
+            /* grid-template-rows: auto 8rem; */
+            /* padding-top: 5rem; */
+
         }
     
         main{
-            margin-top: 3rem;
+            /* margin-top: 3rem; */
             min-height: calc(100vh - 3rem - 2rem);
         }
         .backdrop {

@@ -2,5 +2,17 @@
     .signup-form {
         margin: auto;
         width: 25rem ;
+        display: grid;
+        grid-template-columns: 10rem auto;
+        grid-row-gap: 1rem ;
+    }
+
+    .signup-form [id="title"]{
+        /* grid-row: 2 ; */
+        grid-column: span 2;
+    }
+
+    .signup-form__checkbox{
+        grid-column: span 2;
     }
 }
