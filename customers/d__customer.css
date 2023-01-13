@@ -21,14 +21,19 @@
         /* IT is here instead of top to have margin */
         .testimonial__image-container {
             width: 65%;
-            max-width: 580px;
+            max-width: 40rem;
             margin: 0%;
             box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
+            transform: skew(20deg);
+            overflow: hidden;
+            margin-right: 2rem;
+            margin-left: 2rem;
         }
     
         .testimonial__image {
             width: 100%;
             vertical-align: top;
+            transform: skew(-20deg) scale(1.25) translateY(1rem);
             /* display: inline-block; */
         }
     
