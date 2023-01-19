@@ -114,14 +114,18 @@ main {
 .package:active {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-color: #ff5454;
+    animation: raise 1s ease-out;
     /* border-color: #ff5454 !important; */
 }
+
+
 
 .package a {
     text-decoration: none;
     color: inherit;
     display: block;
     padding: 2rem;
+    
 }
 
 .package__badge {
@@ -205,5 +209,27 @@ main {
     #free:hover,
     #free:active {
         border-right-color: #ff5454;
+    }
+}
+
+@keyframes raise {
+    0%{
+        transform: translateY(0);
+    }
+
+    25%{
+        transform: translateY(0.25rem);
+    }
+
+    50%{
+        transform: translateY(0.5rem);
+    }
+
+    75%{
+        transform:translateY(0.25rem);
+    }
+
+    100%{
+        transform: translateY(0);
     }
 }

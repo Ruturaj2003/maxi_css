@@ -5,6 +5,8 @@ var no__button = document.querySelector('.modal__action--negative');
 var toggleButton = document.querySelector('.toggle-button');
 var mobileNav = document.querySelector('.mobile-nav');
 var n = selectPlanButtons.length;
+var actionButton = document.querySelector('.main-nav__item--cta')
+//action button is call to action button
 
 function eventos ()
 {
@@ -45,4 +47,16 @@ toggleButton.addEventListener('click',function(){
 
 });
 
+actionButton.addEventListener('animationstart',function(event) {
+    console.log('Animation started', event)
+})
+
+actionButton.addEventListener('animationend',function(event) {
+    console.log('Animation ended', event)
+})
+
+
+actionButton.addEventListener('animationiteration',function(event) {
+    console.log('Animation iteration', event)
+})
 // console.log('toggleButton')
