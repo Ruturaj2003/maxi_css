@@ -4,7 +4,22 @@
     box-sizing: border-box;
 }
 
+/* If nesscary can use css variables for repeating vaules such as colors etc 
+To do so 
+Use :root psuedo selector to select the entire document then declare variables inside it
+:root{
+    --main--red: color code;
+    here 2 minus sins are nesscessry
+}
 
+while using
+
+.class{
+    background: var(--main-red,fallback value);
+}
+
+
+*/
 
 body {
     font-family: 'Montserrat', sans-serif;
